@@ -11,7 +11,7 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
-    <string>Secrets of the fishing town</string>
+    <string>Big Secrets of Bas's Fish Town</string>
     <key>CFBundleExecutable</key>
     <string>${EXECUTABLE_NAME}</string>
     <key>CFBundleIdentifier</key>
@@ -23,7 +23,7 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>1.1</string>
+    <string>1.2</string>
     <key>CFBundleVersion</key>
     <string>0</string>
     <key>LSRequiresIPhoneOS</key>
@@ -309,6 +309,10 @@
       <dict>
         <key>SKAdNetworkIdentifier</key>
         <string>e5fvkxwrpn.skadnetwork</string>
+      </dict>
+      <dict>
+        <key>SKAdNetworkIdentifier</key>
+        <string>mqn7fxpca7.skadnetwork</string>
       </dict>
     </array>
     <key>UILaunchStoryboardName</key>

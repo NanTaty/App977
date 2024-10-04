@@ -6,6 +6,9 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_Core();
 	RegisterModule_Core();
 
+	void RegisterModule_AndroidJNI();
+	RegisterModule_AndroidJNI();
+
 	void RegisterModule_Animation();
 	RegisterModule_Animation();
 
@@ -26,6 +29,9 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 
 	void RegisterModule_JSONSerialize();
 	RegisterModule_JSONSerialize();
+
+	void RegisterModule_Physics();
+	RegisterModule_Physics();
 
 	void RegisterModule_RuntimeInitializeOnLoadManagerInitializer();
 	RegisterModule_RuntimeInitializeOnLoadManagerInitializer();
@@ -135,6 +141,9 @@ class Texture2DArray; template <> void RegisterUnityClass<Texture2DArray>(const 
 class Texture3D; template <> void RegisterUnityClass<Texture3D>(const char*);
 class TimeManager; template <> void RegisterUnityClass<TimeManager>(const char*);
 class Transform; template <> void RegisterUnityClass<Transform>(const char*);
+class Collider; template <> void RegisterUnityClass<Collider>(const char*);
+class MeshCollider; template <> void RegisterUnityClass<MeshCollider>(const char*);
+class PhysicsManager; template <> void RegisterUnityClass<PhysicsManager>(const char*);
 namespace TextRendering { class Font; } template <> void RegisterUnityClass<TextRendering::Font>(const char*);
 namespace UI { class Canvas; } template <> void RegisterUnityClass<UI::Canvas>(const char*);
 namespace UI { class CanvasGroup; } template <> void RegisterUnityClass<UI::CanvasGroup>(const char*);
@@ -145,7 +154,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 70 non stripped classes
+	//Total: 73 non stripped classes
 	//0. AnimationClip
 	RegisterUnityClass<AnimationClip>("Animation");
 	//1. Animator
@@ -276,15 +285,21 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<TimeManager>("Core");
 	//64. Transform
 	RegisterUnityClass<Transform>("Core");
-	//65. Font
+	//65. Collider
+	RegisterUnityClass<Collider>("Physics");
+	//66. MeshCollider
+	RegisterUnityClass<MeshCollider>("Physics");
+	//67. PhysicsManager
+	RegisterUnityClass<PhysicsManager>("Physics");
+	//68. Font
 	RegisterUnityClass<TextRendering::Font>("TextRendering");
-	//66. Canvas
+	//69. Canvas
 	RegisterUnityClass<UI::Canvas>("UI");
-	//67. CanvasGroup
+	//70. CanvasGroup
 	RegisterUnityClass<UI::CanvasGroup>("UI");
-	//68. CanvasRenderer
+	//71. CanvasRenderer
 	RegisterUnityClass<UI::CanvasRenderer>("UI");
-	//69. UnityConnectSettings
+	//72. UnityConnectSettings
 	RegisterUnityClass<UnityConnectSettings>("UnityConnect");
 
 }
