@@ -13,6 +13,7 @@
 
 
 extern void InstallationId__ctor_mD8E8D5B7A72C54F2517D33F9F2C89FA708CC6BF7 (void);
+extern void InstallationId_GetOrCreateIdentifier_mB808E735A25CB3357E33337F9A4B737DDAB6B40F (void);
 extern void InstallationId_CreateIdentifier_mC089486FCD96983C9186689C41D1D75E36EFB90C (void);
 extern void InstallationId_ReadIdentifierFromFile_m126AF7B4F947DBB382AA8848D51FEA52C91C3E7C (void);
 extern void InstallationId_WriteIdentifierToFile_m67273AD8773FDBEE468B0BB7F502B3383AB9A6C4 (void);
@@ -29,9 +30,10 @@ extern void UnityAdsIdentifier__ctor_mFD5085EB0AD902D689B820D13D697CE640E2E7B8 (
 extern void UnityAnalyticsIdentifier_get_UserId_m15964ABDB88E2D752C471143ED9C5A32017989CE (void);
 extern void UnityAnalyticsIdentifier_set_UserId_m2751FA3CB0A777DAC8AA56ECBE8945EED55CAC3C (void);
 extern void UnityAnalyticsIdentifier__ctor_mE19B73CB1414B5AC0619E8EF1366C0164B06D14B (void);
-static Il2CppMethodPointer s_methodPointers[19] = 
+static Il2CppMethodPointer s_methodPointers[20] = 
 {
 	InstallationId__ctor_mD8E8D5B7A72C54F2517D33F9F2C89FA708CC6BF7,
+	InstallationId_GetOrCreateIdentifier_mB808E735A25CB3357E33337F9A4B737DDAB6B40F,
 	InstallationId_CreateIdentifier_mC089486FCD96983C9186689C41D1D75E36EFB90C,
 	InstallationId_ReadIdentifierFromFile_m126AF7B4F947DBB382AA8848D51FEA52C91C3E7C,
 	InstallationId_WriteIdentifierToFile_m67273AD8773FDBEE468B0BB7F502B3383AB9A6C4,
@@ -51,33 +53,34 @@ static Il2CppMethodPointer s_methodPointers[19] =
 	UnityAnalyticsIdentifier_set_UserId_m2751FA3CB0A777DAC8AA56ECBE8945EED55CAC3C,
 	UnityAnalyticsIdentifier__ctor_mE19B73CB1414B5AC0619E8EF1366C0164B06D14B,
 };
-static const int32_t s_InvokerIndices[19] = 
+static const int32_t s_InvokerIndices[20] = 
 {
-	5959,
-	5959,
-	8650,
-	8533,
-	8650,
+	6011,
+	5888,
+	6011,
+	8744,
+	8626,
+	8744,
 	0,
 	0,
-	8297,
-	7921,
-	8297,
-	7921,
-	5838,
-	4841,
-	8650,
-	8533,
-	5959,
-	5838,
-	4841,
-	5959,
+	8392,
+	8011,
+	8392,
+	8011,
+	5888,
+	4881,
+	8744,
+	8626,
+	6011,
+	5888,
+	4881,
+	6011,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Services_Core_Device_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_Services_Core_Device_CodeGenModule = 
 {
 	"Unity.Services.Core.Device.dll",
-	19,
+	20,
 	s_methodPointers,
 	0,
 	NULL,
