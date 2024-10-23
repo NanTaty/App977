@@ -529,6 +529,7 @@
 		B65026F4E0A439EAE4490865 /* UnityEngine.IMGUIModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.IMGUIModule_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.IMGUIModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		B662E7588FD9F79EDCF63D17 /* Il2CppCCalculateFieldValues.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCCalculateFieldValues.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Il2CppCCalculateFieldValues.cpp; sourceTree = SOURCE_ROOT; };
 		B7DF838F39D5637124C42C27 /* libUniWebView.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libUniWebView.a; path = Libraries/Plugins/iOS/libUniWebView.a; sourceTree = SOURCE_ROOT; };
+		B8A2B55813D1826E10024CCF /* GenericMethods__15.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenericMethods__15.cpp; path = Il2CppOutputProject/Source/il2cppOutput/GenericMethods__15.cpp; sourceTree = SOURCE_ROOT; };
 		B93CEF1C3FE1A7E36FCD1622 /* Unity.Services.Core.Registration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Unity.Services.Core.Registration.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Unity.Services.Core.Registration.cpp; sourceTree = SOURCE_ROOT; };
 		B9A1D40057435376AC961B25 /* Generics__33.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__33.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__33.cpp; sourceTree = SOURCE_ROOT; };
 		BD54E96698396A5E752F9571 /* Generics__20.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__20.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__20.cpp; sourceTree = SOURCE_ROOT; };
@@ -828,6 +829,7 @@
 				777CD2AF69C4EDDDC8094D5F /* GenericMethods__12.cpp */,
 				64E52B1EC636E618B7604298 /* GenericMethods__13.cpp */,
 				23F4A86D1E5E4A13C05B0120 /* GenericMethods__14.cpp */,
+				B8A2B55813D1826E10024CCF /* GenericMethods__15.cpp */,
 				9497B750CCFB7578BDEF70E5 /* GenericMethods__2.cpp */,
 				A504EDDC3C17119152F24F7F /* GenericMethods__3.cpp */,
 				6268E9B44CD8602C2A9D5536 /* GenericMethods__4.cpp */,
@@ -1918,7 +1920,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PRODUCT_NAME_APP = BigSecretsofBassFishTown;
+				PRODUCT_NAME_APP = SugarSecretsofRusherFish;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 			};
@@ -2049,7 +2051,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PRODUCT_NAME_APP = BigSecretsofBassFishTown;
+				PRODUCT_NAME_APP = SugarSecretsofRusherFish;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 			};
@@ -2655,7 +2657,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME_APP = BigSecretsofBassFishTown;
+				PRODUCT_NAME_APP = SugarSecretsofRusherFish;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 			};
@@ -2694,7 +2696,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PRODUCT_NAME_APP = BigSecretsofBassFishTown;
+				PRODUCT_NAME_APP = SugarSecretsofRusherFish;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 			};
